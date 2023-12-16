@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+body{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-image: linear-gradient(to bottom, #00000080, #00000020   ), url(./image/img.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 25rem;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card input{
+    padding: 1rem 1rem;
+}
+.card button{
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    color: black;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

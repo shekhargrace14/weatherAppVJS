@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App </title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body >
     <div class="container">
         <div class="row">
-            <div class="column">
+            <div class="column card">
+                <input id="city-input" type="text" placeholder="Enter City Name"/>
+                <button id="search-button">Search</button>
+
+                <div class="details">
+                    <p class="result"></p>
+                    <h2>Delhi</h2>
+                    <p>12:30</p>
+                    <p>5 deg </p>
+                </div>
                 
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
