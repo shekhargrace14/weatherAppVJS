@@ -16,7 +16,7 @@ const input = document.getElementById("city-input")
 // })
 
 
-async function weatherApi(result="delhi"){
+async function weatherApi(result="kota"){
     
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${result}&appid=c182d4eda330bc791453f992d1788091`);
 
